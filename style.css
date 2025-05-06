@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: rgb(240, 228, 207);
+    border: 10px ridge lightseagreen;
+    border-radius: 20px;
+}
+
+.title {
+    width: 300px;
+    margin: 20px auto;
+    color: whitesmoke;
+    background-color: salmon;
+    text-align: center;
+    padding: 30px 0px;
+    border: 10px outset salmon;
+    border-radius: 20px;
+}
+
+.recipes {
+    background-color: honeydew;
+    margin: 10px 50px;
+    padding: 20px 10px;
+    border: 2px outset salmon;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.recipe1,
+.recipe2,
+.recipe3 {
+    width: 300px;
+    background-color: salmon;
+    padding: 20px 10px;
+    border: 2px outset salmon;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.img {
+    display: inline-block;
+    border: 3px inset lightseagreen;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
