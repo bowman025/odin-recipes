@@ -6,6 +6,7 @@
     background-color: rgb(240, 228, 207);
     border: 10px ridge lightseagreen;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .title {
@@ -39,9 +40,31 @@
     list-style: none;
 }
 
+.h1 {
+    text-shadow: 2px 2px lightseagreen;
+}
+
+.h2 {
+    text-shadow: 1px 1px salmon;
+}
+
 .img {
     display: inline-block;
     border: 3px inset lightseagreen;
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+.ingredients,
+.steps {
+    background-color: honeydew;
+    border: 3px outset salmon;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.home {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
 }
