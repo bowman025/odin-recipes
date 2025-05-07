@@ -29,6 +29,10 @@
     list-style: none;
 }
 
+.recipes img {
+    margin-top: 10px;
+}
+
 .recipe1,
 .recipe2,
 .recipe3 {
@@ -57,6 +61,7 @@
 
 .ingredients,
 .steps {
+    max-width: 600px;
     background-color: honeydew;
     border: 3px outset salmon;
     border-radius: 20px;
@@ -64,6 +69,7 @@
 }
 
 .home {
+    background-color: salmon;
     display: block;
     margin: auto;
     border-radius: 5px;
